@@ -1,0 +1,13 @@
+#tt_root .tt_toolbar { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin: 8px 0; }
+#tt_root .tt_toolbar select { width: auto; }
+#tt_root #tt_summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 6px; margin: 8px 0; }
+#tt_root .tt_card { display: flex; flex-direction: column; padding: 6px 8px; border-radius: 6px; background: var(--black30a, rgba(0,0,0,.3)); }
+#tt_root .tt_card span { font-size: .8em; opacity: .7; }
+#tt_root .tt_card b { font-size: 1.15em; }
+#tt_root .tt_scroll { overflow-x: auto; max-height: 220px; overflow-y: auto; }
+#tt_root .tt_table { width: 100%; border-collapse: collapse; font-size: .85em; }
+#tt_root .tt_table th, #tt_root .tt_table td { text-align: left; padding: 3px 6px; white-space: nowrap; }
+#tt_root .tt_table th { opacity: .7; position: sticky; top: 0; background: var(--SmartThemeBlurTintColor, #222); }
+#tt_root .tt_table tbody tr:nth-child(even) { background: var(--black30a, rgba(0,0,0,.2)); }
+#tt_root .tt_model { max-width: 180px; overflow: hidden; text-overflow: ellipsis; }
+#tt_root .tt_dim { opacity: .6; font-weight: normal; }
